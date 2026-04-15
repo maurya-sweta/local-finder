@@ -186,3 +186,32 @@ nav a:hover {
         .expert-card p {
             margin: 5px 0;
             color: #555;   }       
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
